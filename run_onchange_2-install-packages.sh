@@ -115,6 +115,9 @@ packages=(
 
     # For qt apps theming
     kvantum
+
+    # For logout menu
+    wlogout
 )
 
 # Install the packages
