@@ -2,13 +2,6 @@
 
 echo "Installing packages"
 
-# Check for NVIDIA GPU
-if lspci | grep -i "NVIDIA" > /dev/null; then
-    wm="hyprland-nvidia"
-else
-    wm="hyprland"
-fi
-
 # Declare an array of packages
 packages=(
     # Shell
@@ -18,7 +11,7 @@ packages=(
     alacritty
 
     # Window manager
-    "$wm"
+    hyprland-nvidia
 
     # Browser
     thorium-browser-bin
@@ -119,6 +112,9 @@ packages=(
 
     # For unzipping stuff
     unzip
+
+    # For qt apps theming
+    kvantum
 )
 
 # Install the packages
@@ -148,3 +144,4 @@ crates_packages=(
 cargo binstall -y "${crates_packages[@]}"
 
 echo "For now you still need to manually load unpacked extension in thorium from /usr/share/chromium-extension-adnauseam/"
+
