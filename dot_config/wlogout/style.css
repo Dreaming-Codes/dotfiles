@@ -18,7 +18,7 @@ window {
 }
 
 button {
-	color: #FFFFFF;
+    color: #FFFFFF;
     font-size:20px;
 
     background-repeat: no-repeat;
@@ -62,4 +62,10 @@ Buttons
 	margin: 10px;
 	border-radius: 20px;
 	background-image: image(url("reboot.png"));
+}
+
+#lock {
+        margin: 10px;
+        border-radius: 20px;
+        background-image: image(url("logout.png"));
 }

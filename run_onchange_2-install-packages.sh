@@ -122,6 +122,9 @@ packages=(
 
     # Modal text editor
     helix
+
+    # Screenshot tools
+    grimblast-git
 )
 
 # Install the packages
