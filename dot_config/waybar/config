@@ -13,6 +13,7 @@
     "bluetooth",
     "pulseaudio",
     "network",
+    "battery",
     "custom/power",
     "clock"
   ],
@@ -90,6 +91,20 @@
     "format-disconnected": "睊",
     "on-click": "nm-connection-editor",
     "tooltip": false
+  },
+  "battery": {
+    "states": {
+      // "good": 95,
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{capacity}% {icon}",
+    "format-charging": "{capacity}% {icon} ",
+    "format-plugged": "{capacity}% ",
+    "format-alt": "{time} {icon}",
+    // "format-good": "", // An empty format will hide the module
+    // "format-full": "",
+    "format-icons": ["", "", "", "", ""]
   },
   "custom/power": {
     "format": "",
