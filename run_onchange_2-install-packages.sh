@@ -125,6 +125,9 @@ packages=(
 
     # Screenshot tools
     grimblast-git
+
+    # Application launcher
+    rofi
 )
 
 # Install the packages
