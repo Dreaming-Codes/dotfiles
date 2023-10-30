@@ -50,6 +50,10 @@ template = "waybar"
 target = "~/.cache/wallust/colors-waybar.css"
 
 [[entry]]
+template = "wlogout"
+target = "~/.cache/wallust/colors-wlogout.css"
+
+[[entry]]
 template = "hyprland"
 target = "~/.cache/wallust/colors-hyprland.conf"
 
