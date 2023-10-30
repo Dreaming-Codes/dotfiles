@@ -130,7 +130,10 @@ packages=(
     rofi
 
     # Command finder utils
-    find-the-command
+    find-the-command-git
+
+    # Xwayland auth fix
+    xorg-xhost
 )
 
 # Install the packages
