@@ -24,6 +24,7 @@ body,
 #clock,
 #pulseaudio,
 #network,
+#battery,
 #bluetooth.on,
 #bluetooth.connected,
 #network.ethernet,
@@ -66,6 +67,7 @@ window#waybar.hidden {
 #custom-pacman,
 #custom-power,
 #clock,
+#battery,
 #pulseaudio,
 #network,
 #bluetooth.on,
@@ -76,6 +78,10 @@ window#waybar.hidden {
   opacity: 0.8;
   padding: 0px;
   font-size: 24px;
+}
+
+#battery {
+  font-size: 12px;
 }
 
 #custom-pacman:hover,
