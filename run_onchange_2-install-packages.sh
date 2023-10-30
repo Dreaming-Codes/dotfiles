@@ -118,6 +118,9 @@ packages=(
 
     # For logout menu
     wlogout
+
+    # Modal text editor
+    helix
 )
 
 # Install the packages
