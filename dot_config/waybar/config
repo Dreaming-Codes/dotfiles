@@ -51,7 +51,7 @@
     "tooltip": false
   },
   "clock": {
-    "timezone": "America/New_York",
+    "timezone": "Europe/Rome",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "format": "{:%I:%M %p}",
     "tooltip-position": "right"
