@@ -22,3 +22,9 @@
     "text" : "Lock",
     "keybind" : "l"
 }
+{
+    "label" : "suspend",
+    "action" : "systemctl suspend",
+    "text" : "Suspend",
+    "keybind" : "u"
+}
