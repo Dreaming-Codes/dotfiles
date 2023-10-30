@@ -128,6 +128,9 @@ packages=(
 
     # Application launcher
     rofi
+
+    # Command finder utils
+    find-the-command
 )
 
 # Install the packages
