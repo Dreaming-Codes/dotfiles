@@ -54,6 +54,10 @@ template = "wlogout"
 target = "~/.cache/wallust/colors-wlogout.css"
 
 [[entry]]
+template = "wlogout"
+target = "~/.cache/wallust/colors-gtklock.css"
+
+[[entry]]
 template = "hyprland"
 target = "~/.cache/wallust/colors-hyprland.conf"
 

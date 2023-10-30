@@ -1,0 +1,67 @@
+/* -----------------------------------------------------
+ * Import Pywal colors
+ * ----------------------------------------------------- */
+@import '../../.cache/wallust/colors-gtklock.css';
+
+* {
+  all: unset;
+}
+
+window {
+  background-color: @background;
+  background-image: url("../../.cache/current_wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#window-box {
+  background-color: alpha(@background, 0.90);
+  border: 1px solid @color0;
+  box-shadow: 10px 10px 0px alpha(@background, 0.98);
+  padding: 0 3em;
+}
+
+#clock-label {
+  min-width: 320px;
+  background-color: alpha(@color4, 0.1);
+  color: @color4;
+  font-weight: 500;
+  font-size: 9pt;
+  padding: 10px 30px;
+  margin-bottom: 10px;
+  border-radius: 0 0 10px 10px;
+  border: 1px solid alpha(@color4, 0.5);
+  border-top: 0;
+}
+
+/* hide "Password:" label */
+#input-label {
+  font-size: 0;
+}
+
+#user-name {
+  font-size: 16pt;
+}
+
+#input-field {
+  border-radius: 20px;
+  padding: 10px 15px;
+  border: 1px solid @color0;
+}
+
+#warning-label,
+#error-label,
+#unlock-button {
+  margin-top: 12px;
+  padding: 10px 2rem;
+  margin-bottom: 20px;
+}
+
+#unlock-button {
+  border-radius: 20px;
+  background-color: alpha(@color4, 0.1);
+  color: @color4;
+  border-radius: 25px;
+  border: 1px solid alpha(@color4, 0.5);
+}

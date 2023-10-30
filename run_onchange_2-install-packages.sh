@@ -72,7 +72,8 @@ packages=(
     swww
 
     # Screen locker
-    waylock
+    gtklock
+    gtklock-userinfo-module
 
     # System bar
     waybar
