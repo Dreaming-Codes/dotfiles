@@ -147,6 +147,9 @@ packages=(
 
     # Color picker
     hyprpicker
+
+    # OSD
+    swayosd-git
 )
 
 # Install the packages
