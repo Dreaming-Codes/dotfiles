@@ -144,6 +144,9 @@ packages=(
     git
     git-credential-manager-core-bin
     git-credential-manager-core-extras
+
+    # Color picker
+    hyprpicker
 )
 
 # Install the packages
