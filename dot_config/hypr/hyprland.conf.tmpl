@@ -202,3 +202,5 @@ exec-once = /usr/lib/pam_kwallet_init
 # OSD lipinput listener
 exec-once = sudo systemctl start swayosd-libinput-backend.service
 exec-once = swayosd-server
+# Polkit agent
+exec-once=/usr/lib/polkit-kde-authentication-agent-1
