@@ -199,8 +199,6 @@ exec-once = systemctl --user start waybar.service
 exec-once = xhost + local:
 # kwallet auto unlock
 exec-once = /usr/lib/pam_kwallet_init
-# OSD lipinput listener
-exec-once = systemctl start swayosd-libinput-backend.service
 exec-once = swayosd-server
 # Polkit agent
 exec-once=/usr/lib/polkit-kde-authentication-agent-1

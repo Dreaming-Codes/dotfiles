@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 echo "Installing packages"
 
 # Declare an array of packages
@@ -154,6 +156,9 @@ packages=(
 
 # Install the packages
 paru -S --needed --noconfirm "${packages[@]}"
+
+# Enable OSD libinput listener
+sudo systemctl enable --now swayosd-libinput-backend.service
 
 # Setup default rust toolchain using rustup
 rustup default stable
