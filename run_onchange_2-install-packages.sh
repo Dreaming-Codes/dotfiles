@@ -134,6 +134,11 @@ packages=(
 
     # Xwayland auth fix
     xorg-xhost
+
+    # Wallet stuff
+    kwallet5
+    kwallet-pam
+    kwalletmanager
 )
 
 # Install the packages
