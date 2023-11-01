@@ -1,0 +1,31 @@
+{
+    "windowStyle": "native",
+    "channel": "stable",
+    "armcordCSP": true,
+    "minimizeToTray": true,
+    "automaticPatches": false,
+    "keybinds": [],
+    "alternativePaste": false,
+    "multiInstance": false,
+    "mods": "vencord",
+    "spellcheck": true,
+    {{- if eq .chezmoi.hostname "DreamingDesk" }}
+    "performanceMode": "performance",
+    {{- else }}
+    "performanceMode": "battery",
+    {{- end }}
+    "skipSplash": true,
+    "inviteWebsocket": false,
+    "startMinimized": false,
+    "dynamicIcon": true,
+    "tray": true,
+    "customJsBundle": "https://armcord.app/placeholder.js",
+    "customCssBundle": "https://armcord.app/placeholder.css",
+    "disableAutogain": false,
+    "useLegacyCapturer": false,
+    "mobileMode": false,
+    "trayIcon": "default",
+    "doneSetup": true,
+    "clientName": "ArmCord",
+    "customIcon": "/usr/share/armcord/app.asar/assets/desktop.png"
+}
