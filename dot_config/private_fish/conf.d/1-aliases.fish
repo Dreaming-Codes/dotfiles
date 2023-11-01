@@ -7,5 +7,5 @@ if status is-interactive
     alias cmatrix="r-matrix"
     alias wifi='nmtui'
     alias cat='bat --paging=never'
-    alias thorium-browser='thorium-browser-sse3'
+    alias thorium-browser='thorium-browser'
 end
