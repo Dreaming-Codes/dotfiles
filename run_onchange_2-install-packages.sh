@@ -139,6 +139,11 @@ packages=(
     kwallet5
     kwallet-pam
     kwalletmanager
+
+    # Git stuff
+    git
+    git-credential-manager-core-bin
+    git-credential-manager-core-extras
 )
 
 # Install the packages
