@@ -154,6 +154,8 @@ rustup default stable
 
 # Install node
 volta install node
+volta install yarn
+volta install pnpm
 
 # Install bun
 volta install bun
