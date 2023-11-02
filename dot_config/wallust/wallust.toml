@@ -17,7 +17,7 @@ backend = "full"
 #  * labfast  - Variant of lab which ignores decimals, leading to a faster but not
 #                that much precise result. Images that work on lab/labmixed could
 #                not have "enough colors" for labfast.
-color_space = "lab"
+color_space = "labmixed"
 
 # Difference between similar colors, used by the colorspace:
 #  1          Not perceptible by human eyes.
@@ -25,7 +25,7 @@ color_space = "lab"
 #  2 - 10     Perceptible at a glance.
 #  11 - 49    Colors are more similar than opposite
 #  100        Colors are exact opposite
-threshold = 20
+threshold = 40
 
 # Use the most prominent colors in a way that makes sense, a scheme:
 #  * dark      - 8 dark colors, color0 darkest - color7 lightest, dark background light contrast
