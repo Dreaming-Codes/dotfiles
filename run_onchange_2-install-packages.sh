@@ -38,6 +38,12 @@ packages=(
 
     # File manager
     dolphin
+    ark
+    p7zip
+    unarchiver
+    lzop
+    lrzip
+    arj
 
     # Enhanced 'ls' command
     exa
