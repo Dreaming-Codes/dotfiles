@@ -17,7 +17,7 @@ backend = "full"
 #  * labfast  - Variant of lab which ignores decimals, leading to a faster but not
 #                that much precise result. Images that work on lab/labmixed could
 #                not have "enough colors" for labfast.
-color_space = "labmixed"
+color_space = "lab"
 
 # Difference between similar colors, used by the colorspace:
 #  1          Not perceptible by human eyes.
