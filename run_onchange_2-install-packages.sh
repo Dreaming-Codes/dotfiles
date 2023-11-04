@@ -167,6 +167,10 @@ packages=(
 
     # Emoji picker
     bemoji
+
+    # Display configuration
+    nwg-displays
+    wlr-randr
 )
 
 # Install the packages
