@@ -26,7 +26,6 @@ packages=(
 
     # Messaging application
     telegram-desktop
-    whatsie-git
     signal-desktop
     armcord
 
