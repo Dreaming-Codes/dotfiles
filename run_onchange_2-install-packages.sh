@@ -161,6 +161,9 @@ packages=(
 
     # Emoji font
     ttf-apple-emoji
+
+    # Emoji picker
+    bemoji
 )
 
 # Install the packages
