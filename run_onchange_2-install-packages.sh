@@ -101,8 +101,11 @@ packages=(
     # Desktop Customization
     nitrogen # for wallpapers
     nwg-look # for theming
-    breeze # for theming
     breeze-gtk # for theming
+
+    # Qt theming
+    qt5ct
+    qt6ct
 
     # For informing application running in XWayland which theme to use
     xsettingsd
