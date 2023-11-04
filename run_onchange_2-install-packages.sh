@@ -100,9 +100,12 @@ packages=(
 
     # Desktop Customization
     nitrogen # for wallpapers
-    lxappearance # for theming
+    nwg-look # for theming
     breeze # for theming
     breeze-gtk # for theming
+
+    # For informing application running in XWayland which theme to use
+    xsettingsd
 
     # For login screen
     sddm
