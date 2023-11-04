@@ -27,8 +27,9 @@
   "clock": {
     "timezone": "Europe/Rome",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "format": "{:%I:%M %p}",
-    "tooltip-position": "right"
+    "format": "{:%H:%M}",
+    "tooltip-position": "right",
+    "on-click": "xdg-open https://calendar.google.com/calendar/u/0"
   },
   "pulseaudio": {
     "scroll-step": 0.5,
