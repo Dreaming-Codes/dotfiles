@@ -158,6 +158,9 @@ packages=(
 
     # OSD
     swayosd-git
+
+    # Emoji font
+    ttf-apple-emoji
 )
 
 # Install the packages
