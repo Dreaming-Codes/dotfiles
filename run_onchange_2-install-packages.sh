@@ -173,6 +173,9 @@ packages=(
     # Display configuration
     nwg-displays
     wlr-randr
+
+    # direnv for shell integrations
+    direnv
 )
 
 # Install the packages
