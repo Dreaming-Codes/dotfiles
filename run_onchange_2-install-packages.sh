@@ -27,7 +27,7 @@ packages=(
     # Messaging application
     telegram-desktop
     signal-desktop
-    armcord
+    vencord-desktop-bin
 
     # Shell customization
     starship
