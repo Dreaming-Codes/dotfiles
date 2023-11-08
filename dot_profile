@@ -4,3 +4,5 @@ export CUDA_HOME="$CUDA_PATH"
 # Added by Toolbox App
 export PATH="$PATH:/home/dreamingcodes/.local/share/JetBrains/Toolbox/scripts"
 
+# Add cargo bin to path
+export PATH="${PATH}:~/.cargo/bin"
