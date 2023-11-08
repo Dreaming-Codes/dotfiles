@@ -1,0 +1,6 @@
+# Fix for cuda gcc build
+CUDA_HOME=/opt/cuda
+
+# Added by Toolbox App
+export PATH="$PATH:/home/dreamingcodes/.local/share/JetBrains/Toolbox/scripts"
+
