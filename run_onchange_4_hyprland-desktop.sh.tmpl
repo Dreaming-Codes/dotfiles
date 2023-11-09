@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# dconf.ini hash: {{ include "/usr/share/wayland-sessions/hyprland.desktop" | sha256sum }}
+
+echo "Detected hyprland.desktop file change rewriting it"
+
+# Run chezmoi source-path to get the base source path
+a=$(chezmoi source-path)
+if [ -z "$a" ]; then
+    echo "Error: chezmoi source-path did not return a path"
+    exit 1
+fi
+
+# Append /scripts_assets/hyprland.desktop to the base source path
+source_file="$a/scripts_assets/hyprland.desktop"
+
+# Check if the source file exists
+if [ ! -f "$source_file" ]; then
+    echo "Error: The file $source_file does not exist."
+    exit 1
+fi
+
+
+# Define the target path
+target_file="/usr/share/wayland-sessions/hyprland.desktop"
+
+# Use cp to copy the file to the target location
+echo "Copying $source_file to $target_file..."
+sudo cp "$source_file" "$target_file"
+
+# Check if the copy was successful
+if [ $? -eq 0 ]; then
+    echo "Copy successful."
+else
+    echo "Error: Failed to copy file."
+    exit 1
+fi

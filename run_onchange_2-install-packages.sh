@@ -110,7 +110,7 @@ packages=(
     xsettingsd
 
     # For login screen
-    lemurs
+    sddm
 
     # Authentication Agent
     polkit-kde-agent
