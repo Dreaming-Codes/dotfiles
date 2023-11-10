@@ -6,3 +6,6 @@ export PATH="$PATH:/home/dreamingcodes/.local/share/JetBrains/Toolbox/scripts"
 
 # Add cargo bin to path
 export PATH="${PATH}:~/.cargo/bin"
+
+# Use system default java for legacy apps
+export JAVA_HOME="/usr/bin/java"
