@@ -37,6 +37,7 @@ packages=(
 
     # File manager
     dolphin
+    dolphin-plugins
     ark
     p7zip
     unarchiver
