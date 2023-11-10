@@ -8,7 +8,7 @@ export PATH="$PATH:/home/dreamingcodes/.local/share/JetBrains/Toolbox/scripts"
 export PATH="${PATH}:~/.cargo/bin"
 
 # Use system default java for legacy apps
-export JAVA_HOME="/usr/bin/java"
+export JAVA_HOME="/usr/lib/jvm/default"
 
 # ANDROID HOME from jetbrains android studio
 export ANDROID_HOME="$HOME/Android/Sdk"
