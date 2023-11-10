@@ -9,3 +9,25 @@ export PATH="${PATH}:~/.cargo/bin"
 
 # Use system default java for legacy apps
 export JAVA_HOME="/usr/bin/java"
+
+# ANDROID HOME from jetbrains android studio
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+
+# Directory where NDK versions are stored
+NDK_DIR="$HOME/Android/Sdk/ndk"
+
+# Check if the NDK directory exists
+if [ ! -d "$NDK_DIR" ]; then
+    echo "Warning: NDK directory not found."
+else
+    # Get the latest version of the NDK
+    LATEST_NDK=$(ls -v $NDK_DIR | tail -n 1)
+
+    # Check if any version was found
+    if [ -z "$LATEST_NDK" ]; then
+        echo "Warning: No NDK versions found."
+    else
+        # Set NDK_HOME to the latest version
+        export NDK_HOME="$NDK_DIR/$LATEST_NDK"
+    fi
+fi
