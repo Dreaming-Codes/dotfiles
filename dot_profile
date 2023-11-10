@@ -11,7 +11,7 @@ export PATH="${PATH}:~/.cargo/bin"
 export JAVA_HOME="/usr/bin/java"
 
 # ANDROID HOME from jetbrains android studio
-export ANDROID_HOME="$HOME/Library/Android/sdk"
+export ANDROID_HOME="$HOME/Android/sdk"
 
 # Directory where NDK versions are stored
 NDK_DIR="$HOME/Android/Sdk/ndk"
