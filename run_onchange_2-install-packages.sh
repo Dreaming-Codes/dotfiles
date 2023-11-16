@@ -46,7 +46,7 @@ packages=(
     arj
 
     # Enhanced 'ls' command
-    exa
+    eza
 
     # Clipboard manager
     cliphist
