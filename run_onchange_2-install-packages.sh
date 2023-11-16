@@ -16,7 +16,7 @@ packages=(
     hyprland-nvidia-git
 
     # Browser
-    thorium-browser-bin
+    thorium-browser-avx-bin
 
     # Password manager
     bitwarden
