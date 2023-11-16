@@ -1,5 +1,5 @@
 if status is-interactive
-    alias ls='exa -al'
+    alias ls='eza -al'
     alias htop='btop'
     alias shutdown='systemctl poweroff'
     alias winclass="xprop | grep 'CLASS'"
