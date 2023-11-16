@@ -1,5 +1,5 @@
 if status is-interactive
-    alias ls='eza -al'
+    alias ls='eza -al --icons'
     alias htop='btop'
     alias shutdown='systemctl poweroff'
     alias winclass="xprop | grep 'CLASS'"
