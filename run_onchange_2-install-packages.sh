@@ -13,7 +13,7 @@ packages=(
     alacritty
 
     # Window manager
-    hyprland-nvidia
+    hyprland-nvidia-git
 
     # Browser
     thorium-browser-bin
