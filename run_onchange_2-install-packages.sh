@@ -185,6 +185,8 @@ paru -S --needed --noconfirm "${packages[@]}"
 # Enable OSD libinput listener
 sudo systemctl enable --now swayosd-libinput-backend.service
 
+sudo systemctl enable --now systemd-networkd
+
 # Setup default rust toolchain using rustup
 rustup default stable
 
