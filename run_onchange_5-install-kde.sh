@@ -8,6 +8,10 @@ echo "Installing kde packages"
 packages=(
     # Plasma meta package
     plasma-meta
+
+    # Wayland support
+    plasma-wayland-protocols
+    plasma-wayland-session
 )
 
 # Install the packages
