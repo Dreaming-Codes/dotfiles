@@ -13,6 +13,9 @@ export JAVA_HOME="/usr/lib/jvm/default"
 # ANDROID HOME from jetbrains android studio
 export ANDROID_HOME="$HOME/Android/Sdk"
 
+# Git credential store
+export GCM_CREDENTIAL_STORE="secretservice"
+
 # Directory where NDK versions are stored
 NDK_DIR="$HOME/Android/Sdk/ndk"
 
