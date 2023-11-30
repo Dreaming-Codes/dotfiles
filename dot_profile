@@ -16,6 +16,18 @@ export ANDROID_HOME="$HOME/Android/Sdk"
 # Git credential store
 export GCM_CREDENTIAL_STORE="secretservice"
 
+# Default browser
+export BROWSER="thorium-browser"
+
+# Default EDITOR
+export EDITOR="helix"
+
+# User the java version set by arch
+export JAVA_HOME="/usr/lib/jvm/default"
+
+# Disable gtk accessibility thing
+export NO_AT_BRIDGE="1"
+
 # Directory where NDK versions are stored
 NDK_DIR="$HOME/Android/Sdk/ndk"
 
