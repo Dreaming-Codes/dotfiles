@@ -63,4 +63,4 @@ target = "~/.cache/wallust/colors-hyprland.conf"
 
 [[entry]]
 template = "alacritty"
-target = "~/.config/alacritty/alacritty.yml"
+target = "~/.config/alacritty/alacritty.toml"
